@@ -2,9 +2,7 @@
 #include <string.h>
 #include <math.h>
 #include <stdlib.h>
-
-int main() {
-	
+int main() {	
     int n,sum;
     scanf("%d", &n);
     //Complete the code to calculate the sum of the five digits on n.
@@ -13,6 +11,5 @@ int main() {
     n/=10;
     }
     printf("%d",sum);
-    
     return 0;
 }
